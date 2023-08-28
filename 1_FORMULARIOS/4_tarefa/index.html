@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite o seu nome" required>
+        </div>
+
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail">
+        </div>
+
+        <div>
+            <label for="data">Data:</label>
+            <input type="date" id="data" placeholder="Digite a data">
+        </div>
+
+        <div>
+        <p> Você gosta de bolo?</p>
+
+        <div>
+            <input type="radio" id="sim" name="gosta-bolo" >
+            <label for="sim">Sim</label>
+        </div>
+
+        <div>
+            <input type="radio" id="nao" name="gosta-bolo">
+            <label for="nao">Não</label>
+        </div>            
+
+        <div>
+            <input type="radio" id="pouco" name="gosta-bolo" >
+            <label for="pouco">Um pouco</label>
+        </div>
+
+        <div>
+            <input type="radio" id="aniversario" name="gosta-bolo">
+            <label for="aniversario">Só de aniversário</label>
+        </div>
+
+        <div>
+            <label for="tipo">Dentre esses bolos escolha um: </label>
+            <select name="tipo" id="tipo">
+                <option selected disabled>Selecione...</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="cenoura">Cenoura</option>
+                <option value="limão">Limão</option>
+                <option value="laranja">Laranja</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="reiniciar">Reiniciar</label>
+            <input type="reset" id="reiniciar" placeholder="Reiniciar o formulário">
+        </div>
+
+        <button>Enviar</button>
+
+    </form>
+</body>
+</html>
