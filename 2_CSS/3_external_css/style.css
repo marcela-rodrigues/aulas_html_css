@@ -1,0 +1,11 @@
+h1 {
+    background: rgb(255, 223, 229);
+    color: rgba(255, 8, 82, 0.705);
+}
+
+p {
+    background: rgba(179, 179, 179, 0.45);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
